@@ -11,7 +11,7 @@ atomic<int> pos;
 
 void sort_me(int n) {
     this_thread::sleep_for(chrono::microseconds(n));
-    result[pos++] = n; // Much thread-safer comparing to sleep-sort.cpp, but not still 100%.
+    result[pos++] = n; // Much thread-safer comparing to sleep-sort.cpp, but still not 100%.
 }
 
 int main() {
