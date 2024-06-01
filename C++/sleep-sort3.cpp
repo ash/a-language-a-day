@@ -15,7 +15,7 @@ void sort_me(int n) {
 }
 
 int main() {
-    vector<int> databox {10, 4, 2, 6, 2, 7, 1, 3};
+    vector<int> databox {10, 4, 2, 6, 5, 7, 1, 3};
 
     vector<thread> tasks;
     for (auto n : databox) tasks.push_back(thread {sort_me, n});
