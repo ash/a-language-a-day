@@ -1,3 +1,3 @@
-USING: io present prettyprint ranges sequences ;
+USING: prettyprint ranges sequences ;
 
-5 10 [a..b] product present print
+5 10 [a..b] product .

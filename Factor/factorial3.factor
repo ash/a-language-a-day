@@ -1,5 +1,5 @@
-USING: io math.factorials present ;
+USING: math.factorials prettyprint ;
 
-1 factorial present print ! 1
-5 factorial present print ! 120
-7 factorial present print ! 5040
+1 factorial . ! 1
+5 factorial . ! 120
+7 factorial . ! 5040

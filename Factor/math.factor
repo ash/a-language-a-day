@@ -1,5 +1,5 @@
-USING: io math present ;
+USING: math prettyprint ;
 
-40 2 + present print ! 42
+40 2 + . ! 42
 
-40 2 - present print ! 38
+40 2 - . ! 38

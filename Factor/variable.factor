@@ -1,5 +1,5 @@
-USING: io present locals ;
+USING: locals prettyprint ;
 
 [let 42 :> answer 
-    answer present print
+    answer .
 ]

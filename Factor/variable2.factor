@@ -1,5 +1,5 @@
-USING: io present locals math ;
+USING: math prettyprint ;
 
 [let 100 :> a 200 :> b
-    a b + present print
+    a b + .
 ]
