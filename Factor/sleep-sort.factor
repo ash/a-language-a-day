@@ -1,8 +1,8 @@
 USING: calendar concurrency.combinators kernel prettyprint threads ;
 
-IN: mybooks
+IN: sleep-sort
 
-: sleep-sort ( seq -- ) [
+: sleep-sort ( data -- ) [
     dup seconds sleep .
 ] parallel-each ;
 
