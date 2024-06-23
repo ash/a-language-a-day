@@ -1,0 +1,7 @@
+--[[
+print("Hello")
+--]]
+
+---[[
+print("World")
+--]]
