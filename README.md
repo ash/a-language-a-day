@@ -1,3 +1,5 @@
+This repository contains source files for my book "A Language a Day". 
+
 This book provides a concise overview of 21 different programming languages. Each language is introduced using the same approach: solving several programming problems to showcase its features and capabilities. Languages covered in the book: C++, Clojure, Crystal, D, Dart, Elixir, Factor, Go, Hack, Hy, Io, Julia, Kotlin, Lua, Mercury, Nim, OCaml, Raku, Rust, Scala, and TypeScript.
 
 Each chapter covers the essentials of a different programming language. To make the content more consistent and comparable, I use the same structure for each language, focusing on the following mini projects:
